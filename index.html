@@ -6,11 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>GT SUL</title>
 </head>
 
 <body>
-    <h1>Aula Bootstrap</h1>
+    <nav class="navbar bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-3">
+        <h1>Aula Bootstrap</h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <div class="alert alert-info" role="alert">
+        🟦 <strong>Bootstrap Grid </strong> <br>
+        O sistema de grid do Bootstrap é baseado em 12 colunas e permite criar layouts responsivos com facilidade. Ele
+        se adapta automaticamente a diferentes tamanhos de tela usando classes como col, row, e container.
+    </div>
+    <div class="alert alert-info" role="alert">
+        🧩 <strong>Componentes </strong> <br>
+        Bootstrap oferece diversos componentes prontos como botões, navbars, cards, e modais. Esses elementos são
+        altamente reutilizáveis e ajudam a construir interfaces modernas de forma rápida.
+    </div>
+    <div class="alert alert-info" role="alert">
+        🎨 <strong>Personalização</strong> <br>
+        É possível personalizar facilmente as cores, tamanhos e estilos do Bootstrap. Isso pode ser feito usando
+        variáveis Sass, classes utilitárias ou adicionando seu próprio CSS para deixar o visual com a sua cara.
+    </div>    
 </body>
 
 </html>
